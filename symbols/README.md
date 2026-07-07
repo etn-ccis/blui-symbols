@@ -88,4 +88,4 @@ Please see [Available Symbols](https://github.com/etn-ccis/blui-symbols/blob/mas
 
 # For Icon Creators
 
-Each symbol has its own folder in the /icons/symbols folder, which includes the clean SVG file .
+Each symbol has its own folder in the `/icons/symbols` folder, which includes the clean SVG file.
