@@ -30,10 +30,8 @@
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
         "create-svg-sprite": "~1.0.4",
+        "husky": "^9.1.7",
         "prettier": "^3.3.3",
         "yarn-audit-fix": "^10.1.1"
-    },
-    "dependencies": {
-        "husky": "^9.1.7"
     }
 }
