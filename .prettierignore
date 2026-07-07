@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Template files (contain template syntax, not valid JS)
+**/templateSvgIcon.js
+
+# Package lock files
+yarn.lock
+package-lock.json
+
+# SVG files
+*.svg
