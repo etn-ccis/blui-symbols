@@ -9,7 +9,11 @@
     "license": "BSD-3-Clause",
     "scripts": {
         "test:svg": "./scripts/svgBuildTest.sh",
-        "build": "create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'"
+        "build": "create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
+        "prepare": "husky",
+        "prettier": "prettier \"**/*.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/*.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
+        "lint": "echo 'No linting configured'"
     },
     "files": [
         "iconfont",
@@ -24,7 +28,10 @@
     "homepage": "https://github.com/etn-ccis/blui-symbols#readme",
     "prettier": "@brightlayer-ui/prettier-config",
     "devDependencies": {
+        "@brightlayer-ui/prettier-config": "^1.0.3",
         "create-svg-sprite": "~1.0.4",
+        "husky": "^9.1.7",
+        "prettier": "^3.3.3",
         "yarn-audit-fix": "^10.1.1"
     }
 }

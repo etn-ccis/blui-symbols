@@ -10,4 +10,4 @@
 
 ### Changed
 
--   Changed package namespace from `@pxblue` to `@brightlayer-ui`.
+- Changed package namespace from `@pxblue` to `@brightlayer-ui`.

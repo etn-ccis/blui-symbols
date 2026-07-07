@@ -3,6 +3,7 @@
 ## Automatic Publishing
 
 This package is published to NPM automatically by Github when code is merged into the `dev` or `master` branches. To publish a new version, simply update the version in `package.json` and merge your code into the appropriate branch.
+
 - The `dev` branch will publish versions marked as `alpha` or `beta`.
 - The `master` branch will publish any version (`alpha`, `beta`, or `latest`).
   In both cases, the code will only be published if the version number differs from the current version published under the respective dist tag.
@@ -12,12 +13,14 @@ This package is published to NPM automatically by Github when code is merged int
 If you need to publish a package manually, you can run the following commands from the root folder:
 
 ### @brightlayer-ui/symbols
+
 ```
 cd symbols
 yarn publish:package
 ```
 
 ### @brightlayer-ui/symbols-mui
+
 ```
 cd symbols-mui
 yarn publish:package
